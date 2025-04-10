@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CDN fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- Style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- CDN bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <title>Projet bootstrap</title>
+  </head>
+  <body>
+    <!-- Start header -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">The Surfing Project</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Acceuil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Le programme</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nos prochaines sessions
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Session 1</a></li>
+                <li><a class="dropdown-item" href="#">Session 2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Session 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End header -->
+
+    <!-- Start jumbotron  -->
+    <div class="jumbotron jumbotron-fluid text-white" id="jumbotron">
+      <div
+        class="container text-center justify-content-center align-items-center mt-5"
+      >
+        <h1 class="display-4 title">Parter à l'aventure</h1>
+        <p class="lead fs-3">Découvrez notre école de surf en peer-learning</p>
+
+        <div class="d-flex justify-content-center align-content-center">
+          <button class="btn btn-primary text-white me-3">
+            Je m'inscrire à la prochaine session
+          </button>
+          <button class="btn btn-dark text-white">
+            Je découvre le programme
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End jumbotron  -->
+
+    <!--Start content -->
+
+    <div class="container mt-5">
+      <h2 class="text-center">The Surfing Project en 3 points</h2>
+      <div
+        class="row row-cols-1 row-cols-md-3 g-4 justify-content-center align-items-center mt-3"
+      >
+        <div class="col">
+          <div class="card border-0">
+            <i class="fas fa-vote-yea text-center"></i>
+            <div
+              class="card-body mt-2 align-items-center justify-content-center d-flex flex-column"
+            >
+              <h3 class="card-text">Pas Chère</h3>
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate qui, ad quas, consequuntur, dolorem voluptatem nulla
+                accusantium ab id nemo facilis perferendis aperiam assumenda quo
+                veritatis! Odio aperiam quisquam sint. Rem id culpa repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <i class="fas fa-vihara"></i>
+            <div
+              class="card-body mt-2 align-items-center justify-content-center d-flex flex-column"
+            >
+              <h3 class="card-text">Relax</h3>
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate qui, ad quas, consequuntur, dolorem voluptatem nulla
+                accusantium ab id nemo facilis perferendis aperiam assumenda quo
+                veritatis! Odio aperiam quisquam sint. Rem id culpa repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <i class="fas fa-sitemap"></i>
+            <div
+              class="card-body mt-2 align-items-center justify-content-center d-flex flex-column"
+            >
+              <h3 class="card-text">La communauté</h3>
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate qui, ad quas, consequuntur, dolorem voluptatem nulla
+                accusantium ab id nemo facilis perferendis aperiam assumenda quo
+                veritatis! Odio aperiam quisquam sint. Rem id culpa repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section temoignages -->
+      <h2 class="text-center py-3">Témoignages</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="./assets/images/t-img1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <small class="text-black-50">Jeff, Avril 2019</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./assets/images/t-img-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <small class="text-black-50">Jean-Michel, Octobre 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Prix -->
+      <h2 class="text-center py-3">Prix</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="card mb-3" style="max-width: 18rem">
+          <div class="card-header">Semaine d'essai</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 18rem">
+          <div class="card-header">Semaine d'essai</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 18rem">
+          <div class="card-header">Semaine d'essai</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--End content -->
+
+    <!-- CDN js -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

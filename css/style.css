@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#jumbotron {
+  /* background-image: url("../assets/images/background.jpg"); */
+  background: linear-gradient(
+      90deg,
+      rgba(39, 8, 230, 0.7674719546021533) 0%,
+      rgba(15, 15, 228, 0.488) 35%,
+      rgba(0, 81, 255, 0.453) 100%
+    ),
+    url("../assets/images/bg-2.jpg");
+  background-attachment: fixed;
+  padding: 50px 0;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  height: 500px !important;
+}
+
+.title {
+  font-weight: 400 !important;
+}
+
+.lead {
+  font-weight: 300;
+}
+
+.card .fas {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.card-header {
+  background-color: rgb(119, 34, 34);
+}
